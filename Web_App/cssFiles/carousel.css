@@ -1,0 +1,9 @@
+:root {
+    font-family: sans-serif;
+}
+
+#carousel {
+    width: 350px;
+    height: 250px;
+    border-radius: 6px;
+}
