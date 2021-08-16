@@ -11,23 +11,15 @@ h3 {
     margin: 30px;
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: rgb(222, 222, 236);
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px rgb(167, 147, 147);
-}
-
 .item {
-    margin-left: 10px;
-    width: 300px;
+    background-color: rgb(222, 222, 236);
+    box-shadow: 3px 3px 5px rgb(167, 147, 147);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
     word-wrap: break-word;
+    border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 .card {
@@ -87,3 +79,4 @@ ul {
 iframe {
     border-radius: 5px;
 }
+
