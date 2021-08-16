@@ -1,0 +1,49 @@
+:root {
+    font-family: sans-serif;
+}
+
+table {
+    margin-top: 30px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#stats {
+    text-align: center;
+}
+
+#cont {
+    overflow-x: auto;
+}
+
+th {
+    background-color:  rgb(27, 27, 109);
+    color: white;
+}
+
+th, td, tr {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#message {
+    display: none;
+    margin: 30px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(139, 139, 187);
+    border-style: none;
+    margin: 3px;
+}
+
+button:hover {
+    background-color: rgb(190, 190, 212);
+}
