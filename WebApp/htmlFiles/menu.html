@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main menu</title>
+        <link href="../cssFiles/navbar.css" rel="stylesheet" type="text/css">
+        <link href="../cssFiles/footer.css" rel="stylesheet" type="text/css">
+        <link href="../cssFiles/carousel.css" rel="stylesheet" type="text/css">
+        <link href="../cssFiles/menu.css" rel="stylesheet" type="text/css">
+        <script src="../jsFiles/navbar.js" defer></script>
+        <script src="../jsFiles/carousel.js" defer></script>
+    </head>
+    <body>
+       <div id="container">
+            <div id="main">
+                <nav class="navbar">
+                    <div class="brand">Ε.Ο.Ε</div>
+                    <a href="#" class="toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <div class="links">
+                        <ul>
+                            <li><a href="menu.html">Μενού</a></li>
+                            <li><a href="news.html">Νέα</a></li>
+                            <li><a href="faqs.html">Συχνές Ερωτήσεις</a></li>
+                            <li><a href="rantevou.html">Ραντεβού για εμβολιασμό</a></li>
+                            <li><a href="statistics.html">Στατιστικά</a></li>
+                            <li><a href="contact.html">Επικοινωνία</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <h1>Καλώς ορίσατε στον Ε.Ο.Ε</h1>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="../images/1.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../images/2.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../images/3.jpg" style="width:100%">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <div style="text-align:center" id="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div> 
+                <p class="item">
+                    Ο Εθνικός Οργανισμός Εμβολιασμών (Ε.Ο.Ε) αποτελεί μία πλατφόρμα στην οποία μπορείτε να ενημερωθείτε 
+                    για την πρόοδο των εμβολιασμών, αλλά και να κλείσετε ραντεβού για να εμβολιαστείτε και εσείς.
+                    Ιδρύθηκε στις 28/12/2020 με χρηματοδότηση από το Υπουργείο Υγείας.
+                </p>
+                <div class="all">
+                    <div class="cards">
+                        <h3>Πληροφορίες πλατφόρμας</h3>
+                        <div class="card">Για να δείτε νέα για τους εμβολιασμούς πατήστε <a href="news.html">Εδώ</a></div>
+                        <div class="card">Για να δείτε συχνές ερωτήσεις πατήστε <a href="faqs.html">Εδώ</a></div>
+                        <div class="card">Για να κλείσετε ραντεβού για εμβολιασμό πατήστε <a href="rantevou.html">Εδώ</a></div>
+                        <div class="card">Για να δείτε τα στατιστικά των εμβολιασμών πατήστε <a href="statistics.html">Εδώ</a></div>
+                        <div class="card">Για να επικοινωνήσετε με τους διαχειριστές του συστήματος πατήστε <a href="contact.html">Εδώ</a></div>
+                    </div>
+                    <div class="news">
+                        <h3>Ανακοινώσεις</h3>
+                        <ul>
+                            <li>Ξεκίνησαν και οι εμβολιασμοί της Moderna.</li><br>
+                            <li>Πολλοί Έλληνες είναι πρόθυμοι να εμβολιαστούν.</li><br>
+                            <li>Οι μάσκες μειώνουν κατά 65% τον κίνδυνο μόλυνσης, συστήνουν οι ειδικοί</li><br>
+                        </ul>
+                    </div>
+                    <div class="videos">
+                        <h3>Ενημερωτικά βίντεο για τον κορωνοϊό</h3>
+
+                        <iframe width="250" height="180" src="https://www.youtube.com/embed/JbCSxdkIIpQ" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write;
+                        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br>
+                        <iframe width="250" height="180" src="https://www.youtube.com/embed/47PdlGmlUBw" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; 
+                        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <footer>
+           <p>Email: eoe@gov.gr</p>
+           <p>Τηλ: 210 4335210</p>
+           <img id="img" src="../images/greek.png" width="120px" height="100px">
+           <p>Χρηματοδότηση από το Υπουργείο Υγείας</p>
+       </footer>
+    </body>
+</html>

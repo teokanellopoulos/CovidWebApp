@@ -1,0 +1,40 @@
+:root {
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    min-height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 210px;
+}
+
+footer {
+    position: relative;
+    height: 210px;
+    margin-top: -210px;
+    clear: both;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(27, 27, 109);
+    color: white;
+}
+
+p {
+    padding: 8px;
+}
+
+#img {
+    border-radius: 5px;
+}

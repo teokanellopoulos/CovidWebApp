@@ -1,0 +1,56 @@
+:root {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(167, 145, 145);
+    margin: 10px;
+}
+
+h3 {
+    margin: 10px 0 10px 0;
+    background-color: rgb(27, 27, 109);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.new {
+    background-color: rgb(222, 222, 236);
+    margin: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(167, 145, 145);
+}
+
+#p1, #p2, #p3 {
+    background-color: rgb(216, 199, 199);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(139, 139, 187);
+    border-style: none;
+}
+
+button:hover {
+    background-color: rgb(181, 181, 216);
+}
